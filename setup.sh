@@ -1,6 +1,7 @@
 #!/usr/bin/zsh
 
 cp -R ~/.config/coderv2/dotfiles/* ~/
+cp -R ~/.config/coderv2/dotfiles/. ~/
 
 source ~/.zshrc
 
