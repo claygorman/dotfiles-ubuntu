@@ -1,0 +1,25 @@
+nodejs 18.17.0
+python 3.11.4 system
+rust 1.71.0
+chezmoi 2.37.0
+solidity 0.8.21
+yarn 1.22.19
+kubectl 1.27.4
+k9s 0.27.4
+helm 3.12.2
+kubectx 0.9.5
+kubent 0.7.0
+jq 1.6
+hub 2.14.2
+fzf 0.42.0
+java adoptopenjdk-17.0.8+7
+terraform 1.5.5
+tfenv 0.4.0
+vim 9.0.1677
+ruby 3.2.2
+github-cli 2.32.1
+awscli 2.13.3
+crystal 1.9.2
+ripgrep 13.0.0
+mc 2023-08-01T23-30-57Z
+tflint 0.47.0
