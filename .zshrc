@@ -48,5 +48,5 @@ source ~/.zsh/completions.zsh
 source ~/.zsh/aliases.zsh
 
 # This has to be here because `complete` command isnt found in other places then this file...
-[ $(command -v aws_completer) != "" ] && zsh-defer complete -C "$HOME/.asdf/shims/aws_completer" aws
+[[ $(command -v aws_completer) != "" ]] && zsh-defer complete -C "$HOME/.asdf/shims/aws_completer" aws
 
