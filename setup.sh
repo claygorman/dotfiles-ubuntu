@@ -17,6 +17,8 @@ cd ~
 rm Meslo.zip
 fc-cache -fv
 
+exec $SHELL
+
 asdf --version
 
 # Install our ASDF extensions
