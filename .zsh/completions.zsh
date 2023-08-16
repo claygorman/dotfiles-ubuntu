@@ -2,8 +2,8 @@
 # This means dont put a file in this directory with a _ prefix if you have to manually source it to work
 
 [ ! -e ~/.completions ] && mkdir -p ~/.completions
-[[ ! -f ~/.completions/kubectl.zsh && $(command -v kubectl) != ""]] && kubectl completion zsh > ~/.completions/kubectl.zsh
-[[ ! -f ~/.completions/helm.zsh && $(command -v helm) != ""]] && helm completion zsh > ~/.completions/helm.zsh
+[[ ! -f ~/.completions/kubectl.zsh && $(command -v kubectl) != "" ]] && kubectl completion zsh > ~/.completions/kubectl.zsh
+[[ ! -f ~/.completions/helm.zsh && $(command -v helm) != "" ]] && helm completion zsh > ~/.completions/helm.zsh
 [ ! -f ~/.completions/_kubectx.zsh ] && curl -s "https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/_kubectx.zsh" -o ~/.completions/_kubectx.zsh
 [ ! -f ~/.completions/_kubens.zsh ] && curl -s "https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/_kubens.zsh" -o ~/.completions/_kubens.zsh
 [[ ! -f ~/.completions/chezmoi.zsh && $(command -v chezmoi) != "" ]] && chezmoi completion zsh --output=~/.completions/chezmoi.zsh
