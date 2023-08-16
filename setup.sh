@@ -17,8 +17,6 @@ cd ~
 rm Meslo.zip
 fc-cache -fv
 
-exec $SHELL
-
 asdf --version
 
 # Install our ASDF extensions
@@ -29,4 +27,4 @@ while IFS= read -r line; do
     asdf plugin add "$plugin_name" "$plugin_url"
 done < /home/${USER}/.tool-versions-urls
 
-asdf Install
+asdf install
