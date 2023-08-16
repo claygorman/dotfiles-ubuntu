@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Loop over each line in the file
 while IFS= read -r line; do
     # Extract plugin name and URL from the line

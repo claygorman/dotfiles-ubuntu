@@ -16,3 +16,7 @@ solidity                     https://github.com/diegodorado/asdf-solidity.git
 terraform                    https://github.com/asdf-community/asdf-hashicorp.git
 tflint                       https://github.com/skyzyx/asdf-tflint.git
 yarn                         https://github.com/twuni/asdf-yarn.git
+ruby                         https://github.com/asdf-vm/asdf-ruby.git
+awscli                       https://github.com/MetricMike/asdf-awscli.git
+github-cli                   https://github.com/bartlomiejdanek/asdf-github-cli.git
+crystal                      https://github.com/asdf-community/asdf-crystal.git
