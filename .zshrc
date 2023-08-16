@@ -19,6 +19,8 @@ source ~/.zsh/prompt.zsh
 # Initialize p10k prompt for zsh shell
 [ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ] && source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 
+[ ! -e ~/.asdf ] && git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
+
 # Init ASDF for managing deps
 source "$HOME/.asdf/asdf.sh"
 

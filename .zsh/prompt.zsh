@@ -1,5 +1,4 @@
 # Install required packages
-[[ $(command -v gpg) == "" ]] && brew install gnupg
 install_zsh_dependency "https://github.com/zsh-users/zsh-syntax-highlighting.git" "$HOME/zsh-syntax-highlighting"
 install_zsh_dependency "https://github.com/zsh-users/zsh-autosuggestions.git" "$HOME/zsh-autosuggestions"
 install_zsh_dependency "https://github.com/marlonrichert/zsh-autocomplete.git" "$HOME/zsh-autocomplete"
