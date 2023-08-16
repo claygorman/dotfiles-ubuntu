@@ -1,8 +1,10 @@
 #!/usr/bin/zsh
 
+cp -R ~/.config/coderv2/dotfiles/* ~/
+
 source ~/.zshrc
 
-mkdir -p .local/share/fonts
+mkdir -p ~/.local/share/fonts
 
 cp ~/.config/coderv2/dotfiles/.fonts/* ~/.local/share/fonts/
 
