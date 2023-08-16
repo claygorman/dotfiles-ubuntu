@@ -10,7 +10,7 @@ mkdir -p ~/.local/share/fonts
 cp ~/.config/coderv2/dotfiles/.fonts/* ~/.local/share/fonts/
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Meslo.zip
-unzip Meslo.zip -d .local/share/fonts
+unzip Meslo.zip -od .local/share/fonts
 cd .local/share/fonts
 rm *Windows*
 cd ~
