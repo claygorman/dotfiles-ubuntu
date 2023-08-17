@@ -1,14 +1,14 @@
 #!/usr/bin/zsh
 
 mkdir -p ~/.completions
+mkdir -p ~/.local/share/fonts
+mkdir -p ~/development
+
 cp -R ~/.config/coderv2/dotfiles/* ~/
-cp -R ~/.config/coderv2/dotfiles/. ~/
+find ~/.config/coderv2/dotfiles/ -not -path '.' -not -path './.git' -iname '.*' -exec cp -rv {} ~/ \
+cp ~/.config/coderv2/dotfiles/.fonts/* ~/.local/share/fonts/
 
 source ~/.zshrc
-
-mkdir -p ~/.local/share/fonts
-
-cp ~/.config/coderv2/dotfiles/.fonts/* ~/.local/share/fonts/
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Meslo.zip
 unzip Meslo.zip -od .local/share/fonts
