@@ -1,5 +1,6 @@
 #!/usr/bin/zsh
 
+mkdir -p ~/.completions
 cp -R ~/.config/coderv2/dotfiles/* ~/
 cp -R ~/.config/coderv2/dotfiles/. ~/
 
