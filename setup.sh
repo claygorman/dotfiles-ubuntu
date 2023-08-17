@@ -20,6 +20,8 @@ fc-cache -fv
 
 exec $SHELL
 
+git config --global user.email $GIT_AUTHOR_EMAIL
+
 asdf --version
 
 # Install our ASDF extensions
