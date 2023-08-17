@@ -4,6 +4,7 @@ export ASDF_DIR="$HOME/.asdf"
 export PATH="$HOME/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+export PATH="$PATH:/home/gorilla/.asdf/shims"
 
 # Initialize tmux if not in specific conditions
 if [[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]]; then
