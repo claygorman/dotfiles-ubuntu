@@ -5,7 +5,7 @@ mkdir -p ~/.local/share/fonts
 mkdir -p ~/development
 
 cp -R ~/.config/coderv2/dotfiles/* ~/
-find ~/.config/coderv2/dotfiles/ -not -path '.' -not -path './.git' -iname '.*' -exec cp -rv {} ~/ \
+find ~/.config/coderv2/dotfiles/ -not -path '.' -not -path './.git' -iname '.*' -exec cp -rv {} ~/
 cp ~/.config/coderv2/dotfiles/.fonts/* ~/.local/share/fonts/
 
 source ~/.zshrc
